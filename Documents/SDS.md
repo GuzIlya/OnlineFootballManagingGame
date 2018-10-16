@@ -29,7 +29,6 @@
 ![BuyPlayersActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/BuyPlayersActivity.png)
 ---
 ## 3 Диаграмма последовательности<a name="3"></a>
-<p align="center"></p>
 ![SequenceDiagram](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Sequence/SequenceDiargam.png)
 ---
 ## 4 Диаграмма классов<a name="4"></a>
