@@ -8,8 +8,8 @@
   6. [Диаграмма компонентов](#6) <br>
 
 ## 1 Диаграмма вариантов использования<a name="1"></a>
-![UseCase](UseCase/UseCase.png)
-Подробнее о каждом варианте использования в [отдельном документе](UseCase/UseCase-ru.md).
+![UseCase](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/UseCase/UseCase.png)
+Подробнее о каждом варианте использования в [отдельном документе](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/UseCase/README.md).
 
 ## 2 Диаграммы активностей<a name="2"></a>
 
