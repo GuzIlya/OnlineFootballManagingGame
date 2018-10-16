@@ -17,7 +17,7 @@
 ### 2.1 Регистрация <a name="2.1"></a>
 ![SignUpActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/SignUpActivity.png)
 ---
-### 2.2 Авторизация <a name="2.1"></a>
+### 2.2 Авторизация <a name="2.2"></a>
 ![LogInActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/LogInActivity.png)
 ---
 ## 3 Диаграмма последовательности<a name="3"></a>
