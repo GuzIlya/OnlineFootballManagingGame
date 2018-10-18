@@ -7,6 +7,8 @@
     2.3 [Формирование состава](#2.3) <br>
     2.4 [Покупка игроков](#2.4) <br>
   3. [Диаграмма последовательности](#3) <br>
+    3.1 [Формирование состава](#3.1) <br>
+    3.2 [Покупка игроков](#3.2) <br>
   4. [Диаграмма классов](#4) <br>
   5. [Диаграммы состояний](#5) <br>
   6. [Диаграмма компонентов](#6) <br>
@@ -29,7 +31,13 @@
 <img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivityBuyPlayers.png" width="250"><br>
 ---
 ## 3 Диаграмма последовательности<a name="3"></a>
-![SequenceDiagram](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Sequence/SequenceDiargam.png)
+### 3.1 Формирование состава <a name="3.1"></a>
+![SetFormation](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Sequence/SequenceSetFormationDiargam.png)
+<br>
+---
+### 3.2 Покупка игроков <a name="3.2"></a>
+![BuyPlayers](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Sequence/SequenceBuyPlayersDiargam.png)
+<br>
 ---
 ## 4 Диаграмма классов<a name="4"></a>
 <p align="center"></p>
