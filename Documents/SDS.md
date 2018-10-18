@@ -23,7 +23,7 @@
 ![LogInActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivityLogIn.png =200x)
 ---
 ### 2.3 Формирование состава <a name="2.3"></a>
-![SetFormationActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivitySetFormation.png =200x)
+<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivitySetFormation.png" alt="SetFormationActivity" style="width: 200px;"/>
 ---
 ### 2.4 Покупка игроков <a name="2.4"></a>
 ![BuyPlayersActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivityBuyPlayers.png =200x)
