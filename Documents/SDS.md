@@ -17,7 +17,7 @@
 
 ## 2 Диаграммы активностей<a name="2"></a>
 ### 2.1 Регистрация <a name="2.1"></a>
-<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivitySignUp.png" width="200">
+<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivitySignUp.png" width="300">
 ---
 ### 2.2 Авторизация <a name="2.2"></a>
 ![LogInActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivityLogIn.png =200x)
