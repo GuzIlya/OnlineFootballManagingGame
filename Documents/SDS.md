@@ -17,16 +17,16 @@
 
 ## 2 Диаграммы активностей<a name="2"></a>
 ### 2.1 Регистрация <a name="2.1"></a>
-![SignUpActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/SignUpActivity.png)
+![SignUpActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivitySignUp.png)
 ---
 ### 2.2 Авторизация <a name="2.2"></a>
-![LogInActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/LogInActivity.png)
+![LogInActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivityLogIn.png)
 ---
 ### 2.3 Формирование состава <a name="2.3"></a>
-![SetFormationActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/SetFormationActivity.png)
+![SetFormationActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivitySetFormation.png)
 ---
 ### 2.4 Покупка игроков <a name="2.4"></a>
-![BuyPlayersActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/BuyPlayersActivity.png)
+![BuyPlayersActivity](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Activity/ActivityBuyPlayers.png)
 ---
 ## 3 Диаграмма последовательности<a name="3"></a>
 ![SequenceDiagram](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Sequence/SequenceDiargam.png)
