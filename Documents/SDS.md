@@ -32,11 +32,11 @@
 ---
 ## 3 Диаграмма последовательности<a name="3"></a>
 ### 3.1 Формирование состава <a name="3.1"></a>
-![SetFormation](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Sequence/SequenceSetFormationDiargam.png)
+![SetFormation](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Sequence/SequenceSetFormationDiargam2.png)
 <br>
 ---
 ### 3.2 Покупка игроков <a name="3.2"></a>
-![BuyPlayers](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Sequence/SequenceBuyPlayersDiargam.png)
+![BuyPlayers](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Sequence/SequenceBuyPlayersDiargam2.png)
 <br>
 ---
 ## 4 Диаграмма классов<a name="4"></a>
