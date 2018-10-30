@@ -40,6 +40,9 @@
 <br>
 ---
 ## 4 Диаграмма классов<a name="4"></a>
+https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Classes/ClassesDiagram.png
+![ClassesDiagram](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Classes/ClassesDiagram.png)
+<br>
 <p align="center"></p>
 
 ## 5 Диаграммы состояний<a name="5"></a>
