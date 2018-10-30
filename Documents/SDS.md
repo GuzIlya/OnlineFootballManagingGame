@@ -12,6 +12,7 @@
   4. [Диаграммы состояний](#4) <br>
     4.1 [Формирование состава](#4.1) <br>
     4.2 [Покупка игроков](#4.2) <br>
+    4.3 [Регистрация](#4.3) <br>
   5. [Диаграмма классов](#5) <br>
   6. [Диаграмма компонентов](#6) <br>
 
@@ -48,6 +49,10 @@
 ---
 ### 4.2 Покупка игроков <a name="4.2"></a>
 <img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/States/StateBuyPlayersDiagram2.png" width="600"><br>
+---
+
+### 4.2 Регистрация <a name="4.3"></a>
+<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/States/StateSignUpDiagram.png" width="600"><br>
 ---
 
 ## 5 Диаграмма классов<a name="5"></a>
