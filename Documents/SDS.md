@@ -44,11 +44,9 @@
 
 ## 4 Диаграммы состояний<a name="4"></a>
 ### 4.1 Формирование состава <a name="4.1"></a>
-<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/States/StateSetFormationDiagram.png" width="400">
-<br>
+<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/States/StateSetFormationDiagram.png" width="600"><br>
 ---
 ### 4.2 Покупка игроков <a name="4.2"></a>
-![StateBuyPlayers]()
 <br>
 ---
 
