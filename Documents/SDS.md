@@ -61,4 +61,6 @@
 <p align="center"></p>
 
 ## 6 Диаграмма компонентов<a name="6"></a>
+![ComponentsDiagram](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Components/ComponentDiagram.png)
+<br>
 <p align="center"></p>
