@@ -52,7 +52,7 @@
 ---
 
 ### 4.2 Регистрация <a name="4.3"></a>
-<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/States/StateSignUpDiagram.png" width="600"><br>
+<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/States/StateSignUpDiagram2.png><br>
 ---
 
 ## 5 Диаграмма классов<a name="5"></a>
