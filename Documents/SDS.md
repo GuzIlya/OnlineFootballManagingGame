@@ -48,7 +48,7 @@
 <img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/States/StateSetFormationDiagram.png" width="600"><br>
 ---
 ### 4.2 Покупка игроков <a name="4.2"></a>
-<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/States/StatePlayersBuyDiagram.png" width="600"><br>
+<img src="https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/States/StatePlayersBuyDiagram.png"><br>
 ---
 
 ### 4.2 Регистрация <a name="4.3"></a>
