@@ -56,7 +56,7 @@
 ---
 
 ## 5 Диаграмма классов<a name="5"></a>
-![ClassesDiagram](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Classes/ClassesDiagram.png)
+![ClassesDiagram](https://github.com/GuzIlya/OnlineFootballManagingGame/blob/master/UMLDiagrams/Classes/ClassesDiagram2.png)
 <br>
 <p align="center"></p>
 
