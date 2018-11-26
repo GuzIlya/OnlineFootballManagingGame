@@ -1,1 +1,1 @@
-# Backend for FoorManage webapp. 
+# Backend for FootManage webapp. 
