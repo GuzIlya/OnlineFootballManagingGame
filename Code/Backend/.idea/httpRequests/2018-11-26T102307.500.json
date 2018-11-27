@@ -1,0 +1,8 @@
+{
+  "timestamp": 1543260187553,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.springframework.web.bind.MissingPathVariableException",
+  "message": "Missing URI template variable 'userId' for method parameter of type Long",
+  "path": "/test/1"
+}

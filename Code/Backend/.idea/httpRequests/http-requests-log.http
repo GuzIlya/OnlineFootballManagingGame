@@ -1,0 +1,248 @@
+POST http://localhost:8080/signUp?=&login=nikita&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T022600.500.json
+
+###
+
+POST http://localhost:8080/signUp?=&login=nikita&password=123
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/login?login=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T020251.200.json
+
+###
+
+POST http://localhost:8080/login?login=polina&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T020123.200.json
+
+###
+
+POST http://localhost:8080/login?login=polina&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T123407.200.json
+
+###
+
+POST http://localhost:8080/signUp?login=polina&password=123
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/signUp?login=polina&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T123201.500.json
+
+###
+
+POST http://localhost:8080/signUp?login=polina&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T123108.500.json
+
+###
+
+POST http://localhost:8080/users?login=admin&password=admina
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T114929.403.json
+
+###
+
+POST http://localhost:8080/users?login=admin&password=admina
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T114617.403.json
+
+###
+
+POST http://localhost:8080/users?login=admin&password=admina
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T114410.403.json
+
+###
+
+POST http://localhost:8080/login?login=admin&password=admina
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T114141.500.json
+
+###
+
+POST http://localhost:8080/login?login=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T114135.200.json
+
+###
+
+POST http://localhost:8080/login?login=a&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T114126.500.json
+
+###
+
+POST http://localhost:8080/login?login=a&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T113917.415.json
+
+###
+
+POST http://localhost:8080/login?login=a&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T113434.415.json
+
+###
+
+POST http://localhost:8080/login?login=a&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T113417.415.json
+
+###
+
+POST http://localhost:8080/login?login=a&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T113414.415.json
+
+###
+
+POST http://localhost:8080/login?login=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T113216.415.json
+
+###
+
+POST http://localhost:8080/login?login=admin&password=admi
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T113146.415.json
+
+###
+
+POST http://localhost:8080/login?login=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T113107.415.json
+
+###
+
+POST http://localhost:8080/signUp?login=admin&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T112929.500.json
+
+###
+
+POST http://localhost:8080/signUp?log=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/signUp?login=admin&password=admin
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/test/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T103659.200.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T103651.200.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T102816.200.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T102544.200.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T102307.500.json
+
+###
+
+GET http://localhost:8080/test
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T102151.500.json
+
+###
+
+GET http://localhost:8080/test/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T102146.404.json
+
+###
+
+GET http://localhost:8080/resources
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-26T102132.404.json
+
+###
+

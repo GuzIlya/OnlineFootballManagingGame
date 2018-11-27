@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "login": "guzman",
+  "hashPassword": "5456454",
+  "balance": 200,
+  "players": [
+    {
+      "id": 1,
+      "name": "Messi",
+      "position": "Miedfielder",
+      "nation": "Argentina",
+      "cost": 100
+    },
+    {
+      "id": 2,
+      "name": "Ronaldo",
+      "position": "Forward",
+      "nation": "Portugal",
+      "cost": 50
+    }
+  ],
+  "role": "USER",
+  "state": "ACTIVE"
+}
