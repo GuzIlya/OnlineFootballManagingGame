@@ -57,3 +57,33 @@ for(var i = 0; i < circles.length; i++){
 }
 chooseBtn.addEventListener('click', stadiumWindow);
 
+function getUserInfo() {
+    $.ajax({
+        url: 'http://localhost:8080' + '/userInfo?token=' + getCookie("Auth-Token"),
+        type: 'get',
+        success: function (data, textStatus, request) {
+            const loginView = document.getElementById("loginName");
+            const balanceView = document.getElementById("balance");
+            loginView.innerHTML = data["login"];
+            balanceView.innerHTML = data["balance"];
+        }
+    })
+}
+
+function getCookie(name) {
+    let matches = document.cookie.match(new RegExp(
+        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+}
+
+function logout() {
+    $.ajax({
+        url: 'http://localhost:8080' + '/loginOut?token=' + getCookie("Auth-Token"),
+        type: 'get',
+        success: function (data, textStatus, request) {
+            window.location = '/login.html';
+        }
+    })
+    document.cookie = 'Auth-Token=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}

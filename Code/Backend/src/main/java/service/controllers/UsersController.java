@@ -20,6 +20,11 @@ public class UsersController {
     @Autowired
     private TokensRepository tokensRepository;
 
+    @PostMapping("/buyPlayer")
+    public ResponseEntity<Object> buyPlayer(){
+        return ResponseEntity.ok().build();
+    }
+
     @GetMapping("/userInfo")
     public ResponseEntity<UserDto> getUserInfo(@RequestParam("token") String tokenName){
         Optional<Token> tokenCandidate = tokensRepository.findOneByValue(tokenName);

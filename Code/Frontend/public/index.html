@@ -4,19 +4,22 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Document</title>
+    <script language="javascript" type="text/javascript"
+            src="http://code.jquery.com/jquery-2.1.1.min.js">
+    </script>
 </head>
-<body>
+<body onload="getUserInfo()">
    <header>
         <div id="top_line">
             <div id="logo"></div>
             <div id="ident">
-                <ul>
-                    <li>Имя</li>
-                    <li>Баланс</li>
+                <ul id="userInfo">
+                    <li id="loginName"></li>
+                    <li id="balance"></li>
                 </ul>
             </div>
             <div id="log-out">
-                <button id="logout">Выйти</button>
+                <button id="logout" onclick="logout()">Выйти</button>
             </div>
         </div>
     </header>
@@ -236,6 +239,6 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="jsfile.js"></script> 
+    <script type="text/javascript" src="jsfile.js"></script>
 </body>
 </html>

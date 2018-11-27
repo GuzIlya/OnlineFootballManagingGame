@@ -1,5 +1,3 @@
-var send = document.getElementById('sub');
-
 function checkPassword() {
     var pass1 =  document.getElementById('password1'),
         pass2 = document.getElementById('password2');
@@ -9,23 +7,28 @@ function checkPassword() {
         alert('Пароли не совпадают');
         return false;
     }
+    return true;
 }
 
-send.addEventListener('click', function(e){
-    checkPassword();
-});
 
 function reg(login, password) {
-    var json = '{ "login": "' + login + '" ,"password":"' + password + '"}';
-    console.log(json);
-    $.ajax({
-        url: 'http://localhost:8080/signUp',
-        type: 'post',
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        data: json,
-        success: function (data, textStatus, request) {
-                window.location = '/login.html';
-        }
-    })
+    if(checkPassword()){
+        var json = '{ "login": "' + login + '" ,"password":"' + password + '"}';
+        console.log(json);
+        $.ajax({
+            url: 'http://localhost:8080/signUp',
+            type: 'post',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            data: json,
+            statusCode: {
+                500: function() {
+                    alert("Логин уже используется");
+                },
+                200: function () {
+                    window.location = '/login.html';
+                }
+            }
+        })
+    }
 }

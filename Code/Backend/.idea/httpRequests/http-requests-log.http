@@ -1,3 +1,35 @@
+POST http://localhost:8080/getPlayersToBuy?=&position=Forward&maxCost=300
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T011416.200.json
+
+###
+
+POST http://localhost:8080/getPlayersToBuy?=&position=Forward&maxCost=300
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T011343.200.json
+
+###
+
+POST http://localhost:8080/getPlayersToBuy?=&position=miedfielder&maxCost=300
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T011307.500.json
+
+###
+
+POST http://localhost:8080/getPlayersToBuy?=&position=miedfielder&maxCost=300
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-11-27T011208.415.json
+
+###
+
 POST http://localhost:8080/signUp?=&login=nikita&password=123
 Accept: */*
 Cache-Control: no-cache
