@@ -1,3 +1,91 @@
+GET http://localhost:8080/getUsersRate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+
+{ "token": "UYDHKDYV89", "playersList": ["Ronaldo", "Benzema", "Aguero"]}
+
+<> 2018-11-28T090115.200.json
+
+###
+
+GET http://localhost:8080/getUsersRate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+
+{ "token": "UYDHKDYV89", "playersList": ["Ronaldo", "Benzema", "Aguero"]}
+
+<> 2018-11-28T085525.200.json
+
+###
+
+GET http://localhost:8080/getUsersRate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+
+{ "token": "UYDHKDYV89", "playersList": ["Ronaldo", "Benzema", "Aguero"]}
+
+<> 2018-11-28T085203.200.json
+
+###
+
+GET http://localhost:8080/getUsersRate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+
+{ "token": "UYDHKDYV89", "playersList": ["Ronaldo", "Benzema", "Aguero"]}
+
+<> 2018-11-28T085132.200.json
+
+###
+
+GET http://localhost:8080/getRealTeamSquad?teamA=Arsenal&teamB=Chelsea
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+
+{ "token": "UYDHKDYV89", "playersList": ["Ronaldo", "Benzema", "Aguero"]}
+
+<> 2018-11-28T082306.200.json
+
+###
+
+GET http://localhost:8080/getRealTeamSquad?teamA=Arsenal&teamB=Chelse
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+
+{ "token": "UYDHKDYV89", "playersList": ["Ronaldo", "Benzema", "Aguero"]}
+
+<> 2018-11-28T082258.500.json
+
+###
+
+GET http://localhost:8080/getRealTeamSquad?teamA=Arsenal&teamB=Chelsea
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+
+{ "token": "UYDHKDYV89", "playersList": ["Ronaldo", "Benzema", "Aguero"]}
+
+<> 2018-11-28T082242.200.json
+
+###
+
+GET http://localhost:8080/getTeamPlayers?teamA=Arsenal&teamB=Chelsea
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+
+{ "token": "UYDHKDYV89", "playersList": ["Ronaldo", "Benzema", "Aguero"]}
+
+<> 2018-11-28T082227.404.json
+
+###
+
 POST http://localhost:8080/addTeam
 Accept: */*
 Cache-Control: no-cache
@@ -385,68 +473,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-11-27T024853.500.json
-
-###
-
-POST http://localhost:8080/buyPlayer?=&token=token&name=ronaldo
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-11-27T024838.500.json
-
-###
-
-POST http://localhost:8080/getPlayersToBuy?=&position=Forward&maxCost=300
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-11-27T011416.200.json
-
-###
-
-POST http://localhost:8080/getPlayersToBuy?=&position=Forward&maxCost=300
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-11-27T011343.200.json
-
-###
-
-POST http://localhost:8080/getPlayersToBuy?=&position=miedfielder&maxCost=300
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-11-27T011307.500.json
-
-###
-
-POST http://localhost:8080/getPlayersToBuy?=&position=miedfielder&maxCost=300
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-11-27T011208.415.json
-
-###
-
-POST http://localhost:8080/signUp?=&login=nikita&password=123
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-11-27T022600.500.json
-
-###
-
-POST http://localhost:8080/signUp?=&login=nikita&password=123
-Accept: */*
-Cache-Control: no-cache
-
-###
-
-POST http://localhost:8080/login?login=admin&password=admin
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-11-27T020251.200.json
 
 ###
 

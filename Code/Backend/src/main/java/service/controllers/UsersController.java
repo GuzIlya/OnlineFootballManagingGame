@@ -11,6 +11,7 @@ import service.repositories.TokensRepository;
 import service.services.UsersService;
 import service.transfer.PlayerDto;
 import service.transfer.UserDto;
+import service.transfer.UserRateDto;
 
 import java.util.List;
 import java.util.Optional;
@@ -65,6 +66,11 @@ public class UsersController {
             usersService.addTeam(tokenCandidate.get(), teamForm.getPlayersList());
             return ResponseEntity.ok().build();
         } else throw new IllegalArgumentException("Wrong token");
+    }
+
+    @GetMapping("/getUsersRate")
+    public ResponseEntity<List<UserRateDto>> getUsersRate(){
+        return ResponseEntity.ok(usersService.getUsersRate());
     }
 
     @GetMapping("/test/{user-id}")

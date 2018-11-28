@@ -32,8 +32,11 @@ public class Player {
     @ManyToMany
     @Column(name = "owners")
     @JsonIgnore
-    List<User> owners;
+    private List<User> owners;
 
     @ManyToMany
-    List<UsersTeam> teams;
+    private List<UsersTeam> teams;
+
+    @ManyToOne
+    private RealTeam realTeam;
 }

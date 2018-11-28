@@ -29,5 +29,4 @@ public class PlayerDto {
     public static List<PlayerDto> from(List<Player> players) {
         return players.stream().map(PlayerDto::from).collect(Collectors.toList());
     }
-
 }

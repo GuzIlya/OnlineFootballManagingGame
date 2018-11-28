@@ -11,6 +11,7 @@ import service.repositories.TeamsRepository;
 import service.repositories.UsersRepository;
 import service.services.UsersService;
 import service.transfer.UserDto;
+import service.transfer.UserRateDto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -104,5 +105,10 @@ public class UsersServiceImpl implements UsersService {
         team.setPlayers(players);
 
         teamsRepository.save(team);
+    }
+
+    @Override
+    public List<UserRateDto> getUsersRate() {
+        return UserRateDto.from(usersRepository.findAllByOrderByPointsDesc());
     }
 }
