@@ -12,5 +12,4 @@ public class TokenDto {
     public static TokenDto from(Token token) {
         return new TokenDto(token.getValue());
     }
-
 }

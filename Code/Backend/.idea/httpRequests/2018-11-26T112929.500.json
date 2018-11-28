@@ -1,8 +1,0 @@
-{
-  "timestamp": 1543264169954,
-  "status": 500,
-  "error": "Internal Server Error",
-  "exception": "java.lang.IllegalArgumentException",
-  "message": "Login already used",
-  "path": "/signUp"
-}

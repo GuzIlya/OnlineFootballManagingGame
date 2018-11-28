@@ -3,15 +3,18 @@ package service.services.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import service.models.Player;
+import service.models.UsersTeam;
 import service.models.Token;
 import service.models.User;
 import service.repositories.PlayersRepository;
+import service.repositories.TeamsRepository;
 import service.repositories.UsersRepository;
 import service.services.UsersService;
 import service.transfer.UserDto;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static service.transfer.UserDto.from;
 
@@ -23,6 +26,9 @@ public class UsersServiceImpl implements UsersService {
 
     @Autowired
     private PlayersRepository playersRepository;
+
+    @Autowired
+    private TeamsRepository teamsRepository;
 
     @Override
     public User findOne(Long userId) {
@@ -68,5 +74,35 @@ public class UsersServiceImpl implements UsersService {
             throw new IllegalArgumentException("No players found for this position");
 
         return playerNamesList;
+    }
+
+    @Override
+    public void addTeam(Token token, List<String> playerNames) {
+        User potentialOwner = token.getUser();
+
+        Optional<UsersTeam> oldTeam = teamsRepository.findByOwner(potentialOwner);
+        if(oldTeam.isPresent()){
+            for(Player oldPlayer: oldTeam.get().getPlayers()){
+                oldPlayer.getTeams().remove(oldTeam.get());
+            }
+            oldTeam.get().getPlayers().removeAll(oldTeam.get().getPlayers());
+
+            teamsRepository.delete(oldTeam.get());
+        }
+
+        UsersTeam team = new UsersTeam();
+        potentialOwner.setTeamOwned(team);
+
+        List<Player> players = new ArrayList<>();
+        for(String playerName: playerNames){
+            Player playerToAdd = playersRepository.findByName(playerName);
+            playerToAdd.getTeams().add(team);
+            players.add(playerToAdd);
+        }
+
+        team.setOwner(potentialOwner);
+        team.setPlayers(players);
+
+        teamsRepository.save(team);
     }
 }

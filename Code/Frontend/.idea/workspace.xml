@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4811a486-0cba-422f-8b9a-8308949a10f4" name="Default Changelist" comment="" />
+    <list default="true" id="4811a486-0cba-422f-8b9a-8308949a10f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/forms/ResultForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/forms/TeamForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/models/UsersTeam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/repositories/TeamsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/ResultsCalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/dataSources/5024be38-b030-4c2c-ab0c-f599675f1c7e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/dataSources/5024be38-b030-4c2c-ab0c-f599675f1c7e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/dataSources/5024be38-b030-4c2c-ab0c-f599675f1c7e/storage_v2/_src_/database/footmanage_db.6qxvgg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/dataSources/5024be38-b030-4c2c-ab0c-f599675f1c7e/storage_v2/_src_/database/footmanage_db.6qxvgg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T102132.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T102146.404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T102151.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T102307.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T102544.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T102816.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T103651.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T103659.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T112929.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T113107.415.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T113146.415.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T113216.415.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T113414.415.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T113417.415.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T113434.415.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T113917.415.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T114126.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T114135.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T114141.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T114410.403.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T114617.403.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-26T114929.403.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T020123.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T123108.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T123201.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T123407.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/controllers/PlayersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/controllers/PlayersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/forms/PlayerForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/forms/PlayerForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/PlayersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/PlayersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/PlayersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/PlayersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/transfer/TokenDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/transfer/TokenDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/PlayersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/PlayersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/forms/PlayerForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/forms/PlayerForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/Player$PlayerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/models/Player$PlayerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/models/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/models/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/services/PlayersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/services/PlayersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/services/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/services/UsersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/PlayersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/PlayersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/UsersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/jsfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jsfile.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,13 +131,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="160" />
-          <entry key="js" value="1023" />
+          <entry key="js" value="1062" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="162" />
-          <entry key="JavaScript" value="1021" />
+          <entry key="JavaScript" value="1060" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,7 +154,9 @@
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -120,8 +184,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/jsreg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="408">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -138,8 +202,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="138" column="45" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="45" />
+            <state relative-caret-position="131">
+              <caret line="194" column="20" selection-start-line="194" selection-start-column="17" selection-end-line="194" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -147,7 +211,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="374">
               <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
@@ -156,8 +220,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/jsfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="150" column="1" lean-forward="true" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+            <state relative-caret-position="148">
+              <caret line="101" column="53" lean-forward="true" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -179,8 +243,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -199,12 +263,14 @@
       <find>getPlayers</find>
       <find>id=&quot;player-p</find>
       <find>oblack</find>
-      <find>pla</find>
       <find>players</find>
       <find>changeClassList</find>
       <find>circles</find>
       <find>choosePlDivWindow</find>
       <find>getAvailablePlayers</find>
+      <find>onc</find>
+      <find>pla</find>
+      <find>buy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,8 +320,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,6 +351,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543353776587" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -317,17 +384,18 @@
       <workItem from="1543274092063" duration="2752000" />
       <workItem from="1543301264103" duration="3398000" />
       <workItem from="1543316538234" duration="4053000" />
+      <workItem from="1543400882525" duration="6194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25963000" />
+    <option name="totallyTimeSpent" value="32157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12751678" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -385,24 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="67" selection-start-line="18" selection-start-column="24" selection-end-line="19" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -413,23 +467,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/public/js/jsreg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="408">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/jsreg.js">
+    <entry file="file://$PROJECT_DIR$/public/registration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="19" column="67" selection-start-line="18" selection-start-column="24" selection-end-line="19" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="374">
           <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
@@ -437,17 +491,31 @@
     <entry file="file://$PROJECT_DIR$/public/js/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="138" column="45" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="45" />
+        <state relative-caret-position="131">
+          <caret line="194" column="20" selection-start-line="194" selection-start-column="17" selection-end-line="194" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/jsfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="150" column="1" lean-forward="true" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
+        <state relative-caret-position="148">
+          <caret line="101" column="53" lean-forward="true" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="53" />
         </state>
       </provider>
     </entry>

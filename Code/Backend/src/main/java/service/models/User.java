@@ -4,9 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import service.models.Player;
-import service.models.Role;
-import service.models.State;
 
 import javax.persistence.*;
 import java.util.List;
@@ -36,6 +33,9 @@ public class User {
 
     @ManyToMany(mappedBy = "owners")
     List<Player> players;
+
+    @OneToOne(mappedBy = "owner")
+    UsersTeam teamOwned;
 
     @Enumerated(value = EnumType.STRING)
     @Column(name = "role")

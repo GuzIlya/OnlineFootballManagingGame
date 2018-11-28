@@ -33,4 +33,7 @@ public class Player {
     @Column(name = "owners")
     @JsonIgnore
     List<User> owners;
+
+    @ManyToMany
+    List<UsersTeam> teams;
 }

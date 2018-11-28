@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import service.forms.PlayerForm;
 import service.models.Player;
+import service.models.Token;
 import service.repositories.PlayersRepository;
 import service.services.PlayersService;
 import service.transfer.PlayerDto;
@@ -19,12 +20,18 @@ public class PlayersServiceImpl implements PlayersService {
     private PlayersRepository playersRepository;
 
     @Override
-    public List<PlayerDto> findAllPlayersToBuy(PlayerForm playerForm) {
+    public List<PlayerDto> findAllPlayersToBuy(Token token, String position, int maxCost) {
+        Boolean flag = true;
         List<PlayerDto> playerDtoList = new ArrayList<>();
-        List<Player> playersFounded = playersRepository.findAllByPosition(playerForm.getPosition());
+        List<Player> playersFounded = playersRepository.findAllByPosition(position);
         for(Player player: playersFounded){
-            if(player.getCost() <= playerForm.getMaxCost()){
-                playerDtoList.add(from(player));
+            if(player.getCost() <= maxCost){
+                for (Player playerOwned: token.getUser().getPlayers())
+                    if (playerOwned.equals(player)) flag = false;
+
+                if (flag){
+                    playerDtoList.add(from(player));
+                } else flag = true;
             }
         }
         if(playerDtoList.isEmpty())

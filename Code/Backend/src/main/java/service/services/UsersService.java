@@ -12,4 +12,5 @@ public interface UsersService {
     UserDto getUserInfoToIndexPage(Token token);
     void buyPlayer(Token token, String name);
     List<String> getPlayersAvailable(Token token, String position);
+    void addTeam(Token token, List<String> playerNames);
 }

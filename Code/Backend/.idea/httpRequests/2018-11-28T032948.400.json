@@ -1,0 +1,8 @@
+{
+  "timestamp": 1543408188124,
+  "status": 400,
+  "error": "Bad Request",
+  "exception": "org.springframework.http.converter.HttpMessageNotReadableException",
+  "message": "JSON parse error: Unrecognized token 'UYDHKDYV89': was expecting ('true', 'false' or 'null'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'UYDHKDYV89': was expecting ('true', 'false' or 'null')\n at [Source: java.io.PushbackInputStream@45097c28; line: 1, column: 23]",
+  "path": "/addTeam"
+}

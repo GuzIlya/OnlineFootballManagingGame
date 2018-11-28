@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import service.forms.PlayerForm;
+import service.forms.TeamForm;
 import service.models.Token;
 import service.models.User;
 import service.repositories.TokensRepository;
@@ -53,6 +54,15 @@ public class UsersController {
         Optional<Token> tokenCandidate = tokensRepository.findOneByValue(tokenName);
         if(tokenCandidate.isPresent()){
             tokensRepository.delete(tokenCandidate.get().getId());
+            return ResponseEntity.ok().build();
+        } else throw new IllegalArgumentException("Wrong token");
+    }
+
+    @PostMapping("/addTeam")
+    public ResponseEntity<Object> addTeam(@RequestBody TeamForm teamForm){
+        Optional<Token> tokenCandidate = tokensRepository.findOneByValue(teamForm.getToken());
+        if(tokenCandidate.isPresent()){
+            usersService.addTeam(tokenCandidate.get(), teamForm.getPlayersList());
             return ResponseEntity.ok().build();
         } else throw new IllegalArgumentException("Wrong token");
     }

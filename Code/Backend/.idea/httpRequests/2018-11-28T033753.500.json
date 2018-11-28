@@ -1,0 +1,8 @@
+{
+  "timestamp": 1543408673901,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.springframework.dao.InvalidDataAccessApiUsageException",
+  "message": "org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : service.models.User.teamOwned -> service.models.Team; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: object references an unsaved transient instance - save the transient instance before flushing : service.models.User.teamOwned -> service.models.Team",
+  "path": "/addTeam"
+}

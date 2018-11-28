@@ -3,13 +3,13 @@ package service.forms;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import service.models.Token;
+
+import java.util.List;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PlayerForm {
+public class TeamForm {
     private String token;
-    private String position;
-    private int maxCost;
+    private List<String> playersList;
 }
