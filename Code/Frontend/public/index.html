@@ -12,14 +12,16 @@
    <header>
         <div id="top_line">
             <div id="logo"></div>
-            <div id="ident">
-                <ul id="userInfo">
-                    <li id="loginName"></li>
-                    <li id="balance"></li>
-                </ul>
-            </div>
-            <div id="log-out">
-                <button id="logout" onclick="logout()">Выйти</button>
+            <div id="top-line-right">
+                <div id="ident">
+                    <ul id="userInfo">
+                        <li id="loginName"></li>
+                        <li id="balance"></li>
+                    </ul>
+                </div>
+                <div id="log-out">
+                    <button id="logout" onclick="logout()">Выйти</button>
+                </div>
             </div>
         </div>
     </header>
@@ -35,36 +37,10 @@
         <div id="stadium">
             <div id="footcourt">
               <div id="choose-player">
-                  <table>
-                      <tr>
-                          <td>
-                              <input type="checkbox">
-                          </td>
-                      </tr>
-                      <tr>
-                          <td>
-                              <input type="checkbox">
-                          </td>
-                      </tr>
-                      <tr>
-                          <td>
-                              <input type="checkbox">
-                          </td>
-                      </tr>
-                      <tr>
-                          <td>
-                              <input type="checkbox">
-                          </td>
-                      </tr>
-                      <tr>
-                          <td>
-                              <input type="checkbox">
-                          </td>
-                      </tr>
+                  <table id="available-player-table">
+                      <th>Name</th>
                   </table>
-                  
                   <input id="choose-pl" type="submit" value="Выбрать">
-                  
               </div>
               <div id="table">
                    <table>
@@ -75,7 +51,7 @@
                             </div>
                         </td>
                         <td>
-                            <div id='def1' class="oblack">
+                            <div id='def' class="oblack">
                                 <p><b>+</b></p>
                             </div>
                         </td>
@@ -85,7 +61,7 @@
                             </div>
                         </td>
                         <td rowspan="2">
-                            <div class="oblack">
+                            <div id="forward1" class="oblack">
                                 <p><b>+</b></p>
                             </div>
                         </td>
@@ -160,7 +136,7 @@
                         <td>9</td>
                     </tr>
                     <tr>
-                        <td>10</td>
+                        <td id="forward1-name">10</td>
                     </tr>
                     <tr>
                         <td>11</td>
@@ -207,38 +183,28 @@
         </div>
         <div id="transfers">
             <div id="trans-players">
-                <table>
-                    <tr>
-                        <td><input type="submit" value="Купить"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="submit" value="Купить"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="submit" value="Купить"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="submit" value="Купить"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="submit" value="Купить"></td>
-                    </tr>
+                <table id="player-table">
+                    <th>Name</th>
+                    <th>Cost</th>
+                    <th></th>
                 </table>
             </div>
             <div id="player-param">
-               <form>
-                    <select name="select">
+                <form>
+                    <select name="select" id="select-position">
                         <option>Вратарь</option>
                         <option>Защитник</option>
                         <option>Полузащитник</option>
                         <option>Нападающий</option>
                     </select><br>
-                    <input type="text" name="select-players" placeholder="Стоимость"><br>
-                    <input type="button" value="Найти">
-               </form>
+                    <input type="text" id="select-cost" name="select-players" placeholder="Стоимость"><br>
+                    <input type="button" value="Найти" onclick="getPlayers(
+                                                                        document.getElementById('select-position').value,
+                                                                        document.getElementById('select-cost').value)">
+                </form>
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="jsfile.js"></script>
+    <script type="text/javascript" src="jsfile.js"></script> 
 </body>
 </html>

@@ -3,12 +3,15 @@ package service.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import service.forms.PlayerForm;
 import service.models.Token;
 import service.models.User;
 import service.repositories.TokensRepository;
 import service.services.UsersService;
+import service.transfer.PlayerDto;
 import service.transfer.UserDto;
 
+import java.util.List;
 import java.util.Optional;
 
 
@@ -20,9 +23,21 @@ public class UsersController {
     @Autowired
     private TokensRepository tokensRepository;
 
-    @PostMapping("/buyPlayer")
-    public ResponseEntity<Object> buyPlayer(){
+    @GetMapping("/buyPlayer")
+    public ResponseEntity<Object> buyPlayer(@RequestParam("token") String tokenName, @RequestParam("name") String playerName){
+        Optional<Token> tokenCandidate = tokensRepository.findOneByValue(tokenName);
+        if(tokenCandidate.isPresent()){
+            usersService.buyPlayer(tokenCandidate.get(), playerName);
+        } else throw new IllegalArgumentException("Wrong token");
         return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/getAvailablePlayers")
+    public ResponseEntity<List<String>> addUser(@RequestParam("token") String tokenName, @RequestParam("position") String position){
+        Optional<Token> tokenCandidate = tokensRepository.findOneByValue(tokenName);
+        if(tokenCandidate.isPresent()){
+            return ResponseEntity.ok(usersService.getPlayersAvailable(tokenCandidate.get(), position));
+        } else throw new IllegalArgumentException("Wrong token");
     }
 
     @GetMapping("/userInfo")

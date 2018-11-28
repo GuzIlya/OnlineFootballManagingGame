@@ -18,7 +18,7 @@ public class PlayersController {
     private PlayersService playersService;
 
     @PostMapping("/getPlayersToBuy")
-    public ResponseEntity<List<PlayerDto>> addUser(PlayerForm playerForm){
+    public ResponseEntity<List<PlayerDto>> addUser(@RequestBody PlayerForm playerForm){
         return ResponseEntity.ok(playersService.findAllPlayersToBuy(playerForm));
     }
 }

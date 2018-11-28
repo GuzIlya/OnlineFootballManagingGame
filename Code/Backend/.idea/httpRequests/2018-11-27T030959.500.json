@@ -1,0 +1,8 @@
+{
+  "timestamp": 1543320599483,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "java.lang.IllegalArgumentException",
+  "message": "No players found for this position",
+  "path": "/getAvailablePlayers"
+}

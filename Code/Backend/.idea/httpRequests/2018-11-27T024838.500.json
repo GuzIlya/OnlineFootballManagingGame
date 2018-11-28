@@ -1,0 +1,8 @@
+{
+  "timestamp": 1543319318146,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "java.lang.IllegalArgumentException",
+  "message": "Wrong token",
+  "path": "/buyPlayer"
+}

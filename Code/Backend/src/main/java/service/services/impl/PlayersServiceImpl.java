@@ -23,11 +23,10 @@ public class PlayersServiceImpl implements PlayersService {
         List<PlayerDto> playerDtoList = new ArrayList<>();
         List<Player> playersFounded = playersRepository.findAllByPosition(playerForm.getPosition());
         for(Player player: playersFounded){
-            if(player.getCost() < playerForm.getMaxCost()){
+            if(player.getCost() <= playerForm.getMaxCost()){
                 playerDtoList.add(from(player));
             }
         }
-
         if(playerDtoList.isEmpty())
             throw new IllegalArgumentException("No players found");
 

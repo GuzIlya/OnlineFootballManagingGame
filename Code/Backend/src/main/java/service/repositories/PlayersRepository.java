@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface PlayersRepository extends JpaRepository<Player, Long> {
     List<Player> findAllByPosition(String position);
+    Player findByName(String name);
 }

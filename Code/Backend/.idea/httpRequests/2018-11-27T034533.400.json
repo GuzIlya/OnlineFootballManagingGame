@@ -1,0 +1,8 @@
+{
+  "timestamp": 1543322733126,
+  "status": 400,
+  "error": "Bad Request",
+  "exception": "org.springframework.web.bind.MissingServletRequestParameterException",
+  "message": "Required String parameter 'token' is not present",
+  "path": "/getAvailablePlayers"
+}
