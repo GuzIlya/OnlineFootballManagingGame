@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4811a486-0cba-422f-8b9a-8308949a10f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/models/MatchResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/repositories/MatchResultRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/transfer/MatchResultDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/forms/PlayersResultForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/forms/PlayersResultForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/repositories/TeamsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/repositories/TeamsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/services/ResultsCalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/services/ResultsCalculatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/ResultsCalculatorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/ResultsCalculatorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/UsersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,14 +87,14 @@
         <counts>
           <entry key="css" value="4" />
           <entry key="html" value="262" />
-          <entry key="js" value="1767" />
+          <entry key="js" value="1825" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4" />
           <entry key="HTML" value="264" />
-          <entry key="JavaScript" value="1765" />
+          <entry key="JavaScript" value="1823" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -145,8 +160,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="340">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -163,8 +178,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/jsfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="64" column="2" selection-start-line="64" selection-end-line="66" selection-end-column="1" />
+            <state relative-caret-position="37">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="21" />
               <folding>
                 <element signature="e#1877#2016#0" />
                 <element signature="e#2059#3366#0" />
@@ -252,9 +267,9 @@
         <option value="$PROJECT_DIR$/public/registration.html" />
         <option value="$PROJECT_DIR$/public/login.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/public/js/jsfile.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/admin.html" />
+        <option value="$PROJECT_DIR$/public/js/jsfile.js" />
         <option value="$PROJECT_DIR$/public/js/admin.js" />
       </list>
     </option>
@@ -321,7 +336,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543613281044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543616615947" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -365,12 +380,12 @@
       <workItem from="1543316538234" duration="4053000" />
       <workItem from="1543400882525" duration="6194000" />
       <workItem from="1543423060179" duration="10040000" />
-      <workItem from="1543605846991" duration="6164000" />
+      <workItem from="1543605846991" duration="8454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48361000" />
+    <option name="totallyTimeSpent" value="50651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -474,9 +489,6 @@
         <state relative-caret-position="-136" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -498,10 +510,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/jsfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="64" column="2" selection-start-line="64" selection-end-line="66" selection-end-column="1" />
+        <state relative-caret-position="37">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="21" />
           <folding>
             <element signature="e#1877#2016#0" />
             <element signature="e#2059#3366#0" />
@@ -520,17 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="340">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

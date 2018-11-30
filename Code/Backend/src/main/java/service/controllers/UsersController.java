@@ -3,13 +3,12 @@ package service.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.forms.PlayerForm;
 import service.forms.TeamForm;
 import service.models.Token;
 import service.models.User;
 import service.repositories.TokensRepository;
 import service.services.UsersService;
-import service.transfer.PlayerDto;
+import service.transfer.MatchResultDto;
 import service.transfer.UserDto;
 import service.transfer.UserRateDto;
 
@@ -71,6 +70,11 @@ public class UsersController {
     @GetMapping("/getUsersRate")
     public ResponseEntity<List<UserRateDto>> getUsersRate(){
         return ResponseEntity.ok(usersService.getUsersRate());
+    }
+
+    @GetMapping("/getResults")
+    public ResponseEntity<List<MatchResultDto>> getResults(){
+        return ResponseEntity.ok(usersService.getResults());
     }
 
     @GetMapping("/test/{user-id}")

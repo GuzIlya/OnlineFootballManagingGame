@@ -2,14 +2,13 @@ package service.services.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import service.models.Player;
-import service.models.UsersTeam;
-import service.models.Token;
-import service.models.User;
+import service.models.*;
+import service.repositories.MatchResultRepository;
 import service.repositories.PlayersRepository;
 import service.repositories.TeamsRepository;
 import service.repositories.UsersRepository;
 import service.services.UsersService;
+import service.transfer.MatchResultDto;
 import service.transfer.UserDto;
 import service.transfer.UserRateDto;
 
@@ -30,6 +29,9 @@ public class UsersServiceImpl implements UsersService {
 
     @Autowired
     private TeamsRepository teamsRepository;
+
+    @Autowired
+    private MatchResultRepository matchResultRepository;
 
     @Override
     public User findOne(Long userId) {
@@ -105,6 +107,11 @@ public class UsersServiceImpl implements UsersService {
         team.setPlayers(players);
 
         teamsRepository.save(team);
+    }
+
+    @Override
+    public List<MatchResultDto> getResults() {
+        return MatchResultDto.from(matchResultRepository.findAll());
     }
 
     @Override

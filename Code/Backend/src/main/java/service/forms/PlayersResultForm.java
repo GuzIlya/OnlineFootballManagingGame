@@ -13,10 +13,10 @@ import java.util.List;
 public class PlayersResultForm {
     private String teamA;
     private String teamB;
-    private String teamAScore;
-    private String teamBScore;
+    private int teamAScore;
+    private int teamBScore;
     private List<String> teamAPlayers;
-    private List<String> teamAResults;
+    private List<Integer> teamAResults;
     private List<String> teamBPlayers;
-    private List<String> teamBResults;
+    private List<Integer> teamBResults;
 }

@@ -2,6 +2,7 @@ package service.services;
 
 import service.models.Token;
 import service.models.User;
+import service.transfer.MatchResultDto;
 import service.transfer.UserDto;
 import service.transfer.UserRateDto;
 
@@ -15,4 +16,5 @@ public interface UsersService {
     List<String> getPlayersAvailable(Token token, String position);
     void addTeam(Token token, List<String> playerNames);
     List<UserRateDto> getUsersRate();
+    List<MatchResultDto> getResults();
 }

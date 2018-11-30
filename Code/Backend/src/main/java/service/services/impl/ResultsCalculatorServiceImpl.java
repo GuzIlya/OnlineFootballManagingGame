@@ -4,12 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import service.forms.PlayersResultForm;
 import service.forms.ResultForm;
+import service.models.MatchResult;
 import service.models.Player;
 import service.models.RealTeam;
-import service.repositories.PlayersRepository;
-import service.repositories.RealTeamsRepository;
-import service.repositories.TeamsRepository;
-import service.repositories.UsersRepository;
+import service.models.User;
+import service.repositories.*;
 import service.services.ResultsCalculatorService;
 
 import java.util.ArrayList;
@@ -29,6 +28,9 @@ public class ResultsCalculatorServiceImpl implements ResultsCalculatorService {
 
     @Autowired
     private UsersRepository usersRepository;
+
+    @Autowired
+    private MatchResultRepository matchResultRepository;
 
     @Override
     public void addResult(ResultForm resultForm) {
@@ -58,11 +60,42 @@ public class ResultsCalculatorServiceImpl implements ResultsCalculatorService {
 
     @Override
     public void calculateResult(PlayersResultForm playersResultForm) {
+
         for (int  i = 0; i < playersResultForm.getTeamAPlayers().size(); i++){
             Player player = playersRepository.findByName(playersResultForm.getTeamAPlayers().get(i));
             if (player != null){
-
+                List<User> playerOwners = player.getOwners();
+                if (playerOwners != null){
+                    for (User owner: playerOwners){
+                        if (owner.getTeamOwned().getPlayers().contains(player)){
+                            owner.setPoints(owner.getPoints() + playersResultForm.getTeamAResults().get(i));
+                            usersRepository.save(owner);
+                        }
+                    }
+                }
             }
         }
+
+        for (int  i = 0; i < playersResultForm.getTeamBPlayers().size(); i++){
+            Player player = playersRepository.findByName(playersResultForm.getTeamBPlayers().get(i));
+            if (player != null){
+                List<User> playerOwners = player.getOwners();
+                if (playerOwners != null){
+                    for (User owner: playerOwners){
+                        if (owner.getTeamOwned().getPlayers().contains(player)){
+                            owner.setPoints(owner.getPoints() + playersResultForm.getTeamBResults().get(i));
+                            usersRepository.save(owner);
+                        }
+                    }
+                }
+            }
+        }
+
+        MatchResult matchResult = new MatchResult();
+        matchResult.setTeamAName(playersResultForm.getTeamA());
+        matchResult.setTeamBName(playersResultForm.getTeamB());
+        matchResult.setTeamAScore(playersResultForm.getTeamAScore());
+        matchResult.setTeamBScore(playersResultForm.getTeamBScore());
+        matchResultRepository.save(matchResult);
     }
 }
