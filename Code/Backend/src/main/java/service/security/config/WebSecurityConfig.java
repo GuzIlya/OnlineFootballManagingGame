@@ -12,6 +12,8 @@ import service.security.filters.TokenAuthFilter;
 import java.sql.Statement;
 import java.util.LinkedList;
 
+import static org.springframework.http.HttpMethod.GET;
+
 @ComponentScan("service")
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
@@ -29,7 +31,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatcher("/**")
                 .authenticationProvider(authenticationProvider)
                 .authorizeRequests()
-                .antMatchers("/users/**").hasAuthority("USER")
+                //.antMatchers(GET, "/getAvailablePlayers").hasAuthority("ADMIN")
                 .antMatchers("/login").permitAll();
         http.csrf().disable();
     }

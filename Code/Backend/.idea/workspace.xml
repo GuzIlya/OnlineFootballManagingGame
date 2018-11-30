@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20322c3e-cd61-4d03-944a-002bb4bcedcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/forms/PlayersResultForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/public/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/public/css/admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Frontend/public/js/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/security/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/services/ResultsCalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/services/ResultsCalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/controllers/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/security/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/security/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/services/ResultsCalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/services/ResultsCalculatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/services/impl/ResultsCalculatorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/services/impl/ResultsCalculatorServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/public/js/jsfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/public/js/jsfile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -147,17 +157,17 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
-          <entry key="java" value="155" />
+          <entry key="java" value="168" />
           <entry key="players" value="8" />
           <entry key="players_id_seq" value="1" />
           <entry key="players_owners" value="7" />
           <entry key="players_teams" value="4" />
-          <entry key="real_teams" value="2" />
-          <entry key="teams" value="2" />
+          <entry key="real_teams" value="3" />
+          <entry key="teams" value="3" />
           <entry key="teams_id_seq" value="1" />
-          <entry key="token" value="6" />
+          <entry key="token" value="7" />
           <entry key="token_id_seq" value="1" />
-          <entry key="users" value="7" />
+          <entry key="users" value="8" />
           <entry key="users_id_seq" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -165,24 +175,24 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="Database Element" value="36" />
-          <entry key="JAVA" value="155" />
+          <entry key="Database Element" value="40" />
+          <entry key="JAVA" value="168" />
           <entry key="SQL" value="4" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cell" value="370" />
-          <entry key="java" value="3868" />
+          <entry key="cell" value="395" />
+          <entry key="java" value="4458" />
           <entry key="txt" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3868" />
+          <entry key="JAVA" value="4458" />
           <entry key="PLAIN_TEXT" value="81" />
-          <entry key="Scratch" value="370" />
+          <entry key="Scratch" value="395" />
         </counts>
       </usages-collector>
     </session>
@@ -190,67 +200,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/UsersController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="72" column="54" lean-forward="true" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+            <state relative-caret-position="258">
+              <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#buyPlayer#0;class#UsersController#0" />
-                <element signature="method#addUser#0;class#UsersController#0" />
-                <element signature="method#logout#0;class#UsersController#0" />
-                <element signature="method#addTeam#0;class#UsersController#0" />
-                <element signature="e#3036#3037#0" expanded="true" />
-                <element signature="e#3105#3106#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/services/impl/UsersServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/services/ResultsCalculatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="111" column="26" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="26" />
+            <state relative-caret-position="170">
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="60" />
               <folding>
-                <element signature="method#buyPlayer#0;class#UsersServiceImpl#0" />
-                <element signature="method#getPlayersAvailable#0;class#UsersServiceImpl#0" />
-                <element signature="e#3441#3442#0" expanded="true" />
-                <element signature="e#3526#3527#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="method#getTeamPlayers#0;class#ResultsCalculatorServiceImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/repositories/PlayersRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/transfer/UserRateDto.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/forms/PlayersResultForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/services/UsersService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/players">
+        <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/teams">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/token">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/forms/ResultForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,43 +296,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/players_teams">
+        <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/users">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/repositories/RealTeamsRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/forms/TeamForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -331,7 +329,6 @@
         <option value="$PROJECT_DIR$/src/main/java/app/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/models/State.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/repositories/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/security/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/repositories/TokensRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/models/Token.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/forms/LoginForm.java" />
@@ -342,7 +339,6 @@
         <option value="$PROJECT_DIR$/src/main/java/service/security/details/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/security/filters/TokenAuthFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/security/provider/TokenAuthenticationProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/security/token/TokenAuthentication.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/security/details/UserDetailsImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5024be38-b030-4c2c-ab0c-f599675f1c7e/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/service/services/impl/SignupServiceImpl.java" />
@@ -363,11 +359,8 @@
         <option value="$PROJECT_DIR$/src/main/java/service/models/Team.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/models/UsersTeam.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/repositories/RealTeamsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/services/ResultsCalculatorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/models/RealTeam.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/transfer/UserRateDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/controllers/GameController.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/services/UsersService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/controllers/UsersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/repositories/UsersRepository.java" />
@@ -375,6 +368,12 @@
         <option value="$PROJECT_DIR$/src/main/java/service/models/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/repositories/PlayersRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/transfer/PlayerDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/security/token/TokenAuthentication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/security/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/controllers/GameController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/services/ResultsCalculatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/forms/PlayersResultForm.java" />
       </list>
     </option>
   </component>
@@ -453,6 +452,43 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -481,7 +517,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543449923654" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543612555483" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -489,10 +525,8 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Учеба\tritpo\FootManage-Backend\Code\Backend\src\main\java\service" />
-      <recent name="E:\Учеба\tritpo\FootManage-Backend\Code\Backend\src\main\java\service\security" />
-      <recent name="E:\Учеба\tritpo\FootManage-Backend\Code\Backend\src\main\java\service\models" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="service.services.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="service.forms" />
@@ -501,8 +535,10 @@
       <recent name="service.repositories" />
       <recent name="service.models" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="service.services.impl" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Учеба\tritpo\FootManage-Backend\Code\Backend\src\main\java\service" />
+      <recent name="E:\Учеба\tritpo\FootManage-Backend\Code\Backend\src\main\java\service\security" />
+      <recent name="E:\Учеба\tritpo\FootManage-Backend\Code\Backend\src\main\java\service\models" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -2189,7 +2225,7 @@
       <workItem from="1543401103387" duration="12234000" />
       <workItem from="1543423095010" duration="11067000" />
       <workItem from="1543599009113" duration="8000" />
-      <workItem from="1543605301564" duration="1377000" />
+      <workItem from="1543605301564" duration="5735000" />
     </task>
     <task id="LOCAL-00001" summary="added authorisation">
       <created>1543281664735</created>
@@ -2202,13 +2238,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63574000" />
+    <option name="totallyTimeSpent" value="67932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27449664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23020135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2238,7 +2274,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.25100672" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.25100672" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3295302" />
@@ -2255,26 +2291,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="added authorisation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/security/filters/TokenAuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.12.RELEASE/spring-boot-autoconfigure-1.5.12.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/sequence/players_id_seq">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/sequence/teams_id_seq">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/sequence/token_id_seq">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2375,6 +2391,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2392,43 +2411,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/forms/ResultForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/SignupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/services/ResultsCalculatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -2459,16 +2441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -2493,13 +2465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="27" column="30" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/repositories/PlayersRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -2540,46 +2505,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/PlayersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addUser#0;class#PlayersController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/teams">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/token">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/players">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/real_teams">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -2613,17 +2539,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/services/UsersService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/transfer/UserRateDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/services/impl/UsersServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="method#buyPlayer#0;class#UsersServiceImpl#0" />
+            <element signature="method#getPlayersAvailable#0;class#UsersServiceImpl#0" />
+            <element signature="e#3441#3442#0" expanded="true" />
+            <element signature="e#3526#3527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/security/details/UserDetailsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/security/token/TokenAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/SignupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/PlayersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addUser#0;class#PlayersController#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="72" column="54" lean-forward="true" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+        <state relative-caret-position="142">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#buyPlayer#0;class#UsersController#0" />
@@ -2636,36 +2623,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/services/UsersService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/security/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="306">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/services/impl/UsersServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/forms/ResultForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="111" column="26" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="26" />
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="method#buyPlayer#0;class#UsersServiceImpl#0" />
-            <element signature="method#getPlayersAvailable#0;class#UsersServiceImpl#0" />
-            <element signature="e#3441#3442#0" expanded="true" />
-            <element signature="e#3526#3527#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/transfer/UserRateDto.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/controllers/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="258">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/services/ResultsCalculatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/token">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/real_teams">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/repositories/PlayersRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5024be38-b030-4c2c-ab0c-f599675f1c7e/database/footmanage_db/schema/public/table/teams">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="method#getTeamPlayers#0;class#ResultsCalculatorServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/forms/PlayersResultForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -2,9 +2,10 @@ package service.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.core.Authentication;
+import org.springframework.web.bind.annotation.*;
+import service.forms.PlayersResultForm;
+import service.forms.ResultForm;
 import service.services.ResultsCalculatorService;
 import service.transfer.UserDto;
 import service.transfer.UserRateDto;
@@ -21,6 +22,9 @@ public class GameController {
         return ResponseEntity.ok(resultsCalculatorService.getTeamPlayers(teamA, teamB));
     }
 
-
-
+    @PostMapping("/calculateResult")
+    public ResponseEntity<Object> calculateResult(@RequestBody PlayersResultForm PlayersResultForm){
+        resultsCalculatorService.calculateResult(PlayersResultForm);
+        return ResponseEntity.ok().build();
+    }
 }
