@@ -26,10 +26,6 @@ var changeTable = function(){
 
 butSend.addEventListener('click', changeTable);
 
-
-
-alert("!!!");
-
 function getRealTeamSquad(teamA, teamB) {
     $.ajax({
         url: 'http://localhost:8080/getRealTeamSquad?teamA=' + teamA + '&teamB=' + teamB,
@@ -37,12 +33,17 @@ function getRealTeamSquad(teamA, teamB) {
         success: function (data, textStatus, request) {
             const table1 = document.getElementById("teamA");
             const table2 = document.getElementById("teamB");
-            for (let i = 0; i < 1; i++) {
+            for (let i = 0; i < 2; i++) {
                 for (let j = 0; j < data[i].length; j++) {
-                    let row = table.insertRow(i + 1);
+                    let row;
+                    if (i == 0)
+                        row = table1.insertRow(j);
+                    else
+                        row = table2.insertRow(j);
+
                     const cellPName = row.insertCell(0);
                     const cellPoints = row.insertCell(1);
-                    cellPName.innerHTML = data[i][j]["name"];
+                    cellPName.innerHTML = data[i][j];
                     cellPoints.innerHTML = '<input value="0">';
                 }
             }
