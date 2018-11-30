@@ -29,6 +29,7 @@ var stadiumWindow = function(){
 
 var statsWindow = function(){
     changeClassList(stats, stadium, results, transfers);
+    getUsersRate();
 }
 
 var myTeamWindow = function(){
@@ -37,6 +38,28 @@ var myTeamWindow = function(){
 
 var resultWindow = function(){
     changeClassList(results, stadium, stats, transfers);
+    //getResults();
+};
+
+function getUsersRate() {
+    delAll("users-rate-table");
+    $.ajax({
+        url: 'http://localhost:8080/getUsersRate',
+        type: 'get',
+        success: function (data, textStatus, request) {
+            let table = document.getElementById("users-rate-table");
+            for (let i = 0; i < data.length; i++) {
+                let str = "user" + i;
+                let row = table.insertRow(i + 1);
+                row.id = str;
+                const cellName = row.insertCell(0);
+                cellName.innerHTML = data[i]["login"];
+
+                const cellPoints = row.insertCell(1);
+                cellPoints.innerHTML = data[i]["points"];
+            }
+        }
+    })
 }
 
 var transfersWindow = function(){
@@ -90,6 +113,7 @@ for(var i = 0; i < circles.length; i++){
         choosePlDivWindow(k);
     })
 }
+
 /*function setPl(circle) {
 
     let pl = document.getElementById("pl");

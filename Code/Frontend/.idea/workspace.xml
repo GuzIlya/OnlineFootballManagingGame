@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4811a486-0cba-422f-8b9a-8308949a10f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/controllers/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/models/RealTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/repositories/RealTeamsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/ResultsCalculatorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/transfer/UserRateDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/dataSources/5024be38-b030-4c2c-ab0c-f599675f1c7e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/dataSources/5024be38-b030-4c2c-ab0c-f599675f1c7e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/dataSources/5024be38-b030-4c2c-ab0c-f599675f1c7e/storage_v2/_src_/database/footmanage_db.6qxvgg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/dataSources/5024be38-b030-4c2c-ab0c-f599675f1c7e/storage_v2/_src_/database/footmanage_db.6qxvgg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T011208.415.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T011307.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T011343.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T011416.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T020251.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T022600.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/2018-11-27T024838.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/repositories/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/repositories/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/ResultsCalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/ResultsCalculatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/UsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/services/impl/UsersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/src/main/java/service/transfer/PlayerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/src/main/java/service/transfer/PlayerDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/controllers/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/Player$PlayerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/models/Player$PlayerBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/models/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/Team$TeamBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/Team.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/models/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/repositories/TeamsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/repositories/TeamsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/repositories/UsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/repositories/UsersRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/services/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/services/UsersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Backend/target/classes/service/services/impl/UsersServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/jsfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/jsfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/login.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,15 +72,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="4" />
-          <entry key="html" value="200" />
-          <entry key="js" value="1629" />
+          <entry key="html" value="227" />
+          <entry key="js" value="1695" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="HTML" value="202" />
-          <entry key="JavaScript" value="1627" />
+          <entry key="HTML" value="229" />
+          <entry key="JavaScript" value="1693" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -134,10 +97,10 @@
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -183,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="114" column="35" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="35" />
+            <state relative-caret-position="97">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -201,12 +164,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/jsfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="235" column="24" selection-start-line="235" selection-start-column="24" selection-end-line="235" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
               <folding>
+                <element signature="n#!!block;n#getUserInfo#0" />
+                <element signature="n#!!block;n#setPlayers#0" />
                 <element signature="n#!!block;n#getCookie#0" />
                 <element signature="n#!!block;n#logout#0" />
                 <element signature="n#!!block;n#buyPlayer#0" />
+                <element signature="n#!!block;n#checkForDuplicate#0" />
+                <element signature="n#!!block;n#deleteRow#0" />
+                <element signature="n#!!block;n#delAll#0" />
               </folding>
             </state>
           </provider>
@@ -229,7 +197,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="289">
               <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
@@ -260,6 +228,9 @@
       <find>plName</find>
       <find>changeClassList</find>
       <find>player</find>
+      <find>table</find>
+      <find>results-btn</find>
+      <find>resultBtn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -309,6 +280,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,7 +310,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,18 +351,19 @@
       <workItem from="1543301264103" duration="3398000" />
       <workItem from="1543316538234" duration="4053000" />
       <workItem from="1543400882525" duration="6194000" />
-      <workItem from="1543423060179" duration="8971000" />
+      <workItem from="1543423060179" duration="10040000" />
+      <workItem from="1543605846991" duration="839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41128000" />
+    <option name="totallyTimeSpent" value="43036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13020134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13154362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -477,6 +449,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -489,33 +468,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="289">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="114" column="35" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="35" />
+        <state relative-caret-position="97">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/jsfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="235" column="24" selection-start-line="235" selection-start-column="24" selection-end-line="235" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
           <folding>
+            <element signature="n#!!block;n#getUserInfo#0" />
+            <element signature="n#!!block;n#setPlayers#0" />
             <element signature="n#!!block;n#getCookie#0" />
             <element signature="n#!!block;n#logout#0" />
             <element signature="n#!!block;n#buyPlayer#0" />
+            <element signature="n#!!block;n#checkForDuplicate#0" />
+            <element signature="n#!!block;n#deleteRow#0" />
+            <element signature="n#!!block;n#delAll#0" />
           </folding>
         </state>
       </provider>
