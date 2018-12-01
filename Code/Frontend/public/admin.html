@@ -4,32 +4,33 @@
     <link rel="stylesheet" href="css/admin.css">
     <meta charset="UTF-8">
     <title>Document</title>
-       <script language="javascript" type="text/javascript"
+    <script language="javascript" type="text/javascript"
             src="http://code.jquery.com/jquery-2.1.1.min.js">
     </script>
 </head>
 <body>
-    <div id="add-result">
-        <select name="select" id="select-team1">
-            <option>Arsenal</option>
-        </select>
-        <p> VS </p>
-        <select name="select" id="select-team2">
-            <option>Chelsea</option>
-        </select>
-        <br>
-        <input type="button" id="send" value="Отправить">
-    </div>
-    <div id="team-tables">
-        <table id="teamA">
+<div id="add-result">
+    <select name="select" id="select-team1">
+        <option>Arsenal</option>
+    </select>
+    <p> VS </p>
+    <select name="select" id="select-team2">
+        <option>Chelsea</option>
+    </select>
+    <br>
+    <input type="button" id="send" value="Отправить">
+</div>
+<div id="team-tables">
+    <table id="teamA">
 
-        </table>
-        <input type="goalsOfA">
-        <table id="teamB">
+    </table>
+    <input id="goalsOfA">
+    <table id="teamB">
 
-        </table>
-        <input type="goalsOfB">
-    </div>
-            <script type="text/javascript" src="js/admin.js"></script>
+    </table>
+    <input id="goalsOfB">
+    <button id="send-score"></button>
+</div>
+<script type="text/javascript" src="js/admin.js"></script>
 </body>
 </html>

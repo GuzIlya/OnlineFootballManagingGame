@@ -38,7 +38,7 @@ var myTeamWindow = function(){
 
 var resultWindow = function(){
     changeClassList(results, stadium, stats, transfers);
-    //getResults();
+    getResults();
 };
 
 function getUsersRate() {
@@ -64,7 +64,7 @@ function getUsersRate() {
 
 var transfersWindow = function(){
     changeClassList(transfers, stadium, results, stats);
-}
+};
 
 
 statsBtn.addEventListener('click', statsWindow);
@@ -75,7 +75,8 @@ findPl.addEventListener('click', function (e){
     let table = document.getElementById('player-table');
     table.classList.remove('nonedisplay');
     table.classList.add('display');
-})
+});
+
 
 let choosePlDivWindow = function(circle){
     changeClassList(choosePlayer, table, results, transfers);
@@ -104,7 +105,7 @@ let choosePlDivWindow = function(circle){
     else if(circle === "middlefielder3"){
         getAvailablePlayers("Полузащитник", "middlefielder3-name", "middlefielder3-b");
     }
-}
+};
 
 
 for(var i = 0; i < circles.length; i++){
@@ -286,3 +287,20 @@ function delAll(tableId) {
     }
 }
 
+function getResults() {
+    delAll("result-table");
+    $.ajax({
+        url: 'http://localhost:8080/getResults',
+        type: 'get',
+        success: function (data, textStatus, request) {
+            const resultTable = document.getElementById("result-table");
+            let str;
+            for (let i = 0; i < data.length; i++) {
+                str = data[i]["teamAName"] + " " + data[i]["teamAScore"] + " : " + data[i]["teamBScore"] + " " + data[i]["teamBName"];
+                let row = resultTable.insertRow(i + 1);
+                const cellResult = row.insertCell(0);
+                cellResult.innerHTML = str;
+            }
+        }
+    })
+}

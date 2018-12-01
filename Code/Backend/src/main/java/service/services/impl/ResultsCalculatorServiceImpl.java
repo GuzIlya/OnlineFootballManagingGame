@@ -67,10 +67,12 @@ public class ResultsCalculatorServiceImpl implements ResultsCalculatorService {
                 List<User> playerOwners = player.getOwners();
                 if (playerOwners != null){
                     for (User owner: playerOwners){
-                        if (owner.getTeamOwned().getPlayers().contains(player)){
-                            owner.setPoints(owner.getPoints() + playersResultForm.getTeamAResults().get(i));
-                            usersRepository.save(owner);
-                        }
+                        if (owner.getTeamOwned() != null)
+                            if (owner.getTeamOwned().getPlayers().contains(player)){
+                                owner.setPoints(owner.getPoints() + playersResultForm.getTeamAResults().get(i));
+                                owner.setBalance(owner.getBalance() + playersResultForm.getTeamAResults().get(i) / 10);
+                                usersRepository.save(owner);
+                            }
                     }
                 }
             }
@@ -82,14 +84,20 @@ public class ResultsCalculatorServiceImpl implements ResultsCalculatorService {
                 List<User> playerOwners = player.getOwners();
                 if (playerOwners != null){
                     for (User owner: playerOwners){
-                        if (owner.getTeamOwned().getPlayers().contains(player)){
-                            owner.setPoints(owner.getPoints() + playersResultForm.getTeamBResults().get(i));
-                            usersRepository.save(owner);
-                        }
+                        if (owner.getTeamOwned() != null)
+                            if (owner.getTeamOwned().getPlayers().contains(player)){
+                                owner.setPoints(owner.getPoints() + playersResultForm.getTeamBResults().get(i));
+                                owner.setBalance(owner.getBalance() + playersResultForm.getTeamBResults().get(i) / 10);
+                                usersRepository.save(owner);
+                            }
                     }
                 }
             }
         }
+
+
+
+
 
         MatchResult matchResult = new MatchResult();
         matchResult.setTeamAName(playersResultForm.getTeamA());
